@@ -1,8 +1,8 @@
 Plant the seed of Cardano metaverse.
 
-Numbers are the foundation of the universe, seed nft provides fairly minted natural numbers, which could be the seed number for a lot of ecosystem projects.
+Numbers are the foundation of the universe, seed nft provides fair-minted natural numbers, which could be the seed number for lots of use cases.
 
-The numbers are generated sequentially, starting from zero, unlimited supply, and zero cost.
+The numbers are generated sequentially starting from zero with unlimited supply and no cost (other than the gas).
 
 ## Contract
 
@@ -10,21 +10,21 @@ The numbers are generated sequentially, starting from zero, unlimited supply, an
 
 ## For Ecosystem Developers
 
-Developers who are interested in Cardano metaverse can share same user base and community, and focus on the off-chain part of the application.
+By building applications with seed nft, developers can reuse the on-chain infrastructure, the user base and community, focus on the off-chain part of the application.
 
 ## FAQ
 
-- Price
+- Price to mint
 
   Zero, you only pay for the gas, there's a minimal ada needed for UTxO, which will be refunded when you burn the nft.
 
-- Mint speed
+- Mining speed
 
-  Not limited by contract itself, but the concurrency behavior in UTxO model provides a natual speed limit, unless community figure out how to cooperate to mint faster.
+  It'll be enforced in contract that at most 1 nft is minted per block.
 
-- Value of the number
+- The value in a natural number
 
-  Value is decided by community projects, difference use cases inject different values to different numbers, example use cases:
+  Values are injected by community projects, example use cases:
 
   - Collecting lower numbers
   - Collecting prime numbers
